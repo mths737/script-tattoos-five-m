@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main-box">
+        <div class="box-title">
+            <h1>TATUAGENS</h1>
+        </div>
+        <div class="box-choice">
+            <div class="box-local">
+                <div class="box-local-title">
+                    <h2>LOCAL</h2>
+                </div>
+
+                <div class="box-local-choice">
+                    <div>
+                        <button name="parte" class="" id="head">Cabeça</button>
+                        <button name="parte" class="" id="torso">Tronco</button>
+                        <button name="parte" class="" id="right_arm">Braço direito</button>
+                        <button name="parte" class="" id="left_arm">Braço esquerdo</button>
+                        <button name="parte" class="" id="right_leg">Perna direita</button>
+                        <button name="parte" class="" id="left_leg">Perna esquerda</button>
+                        <button name="parte" class="" id="clear">Limpar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box-tattoo">
+                <div class="box-tattoo-title">
+                    <h2>TATUAGEM</h2>
+                </div>
+
+                <div class="box-tattoo-choice">
+                    <div class="tattoos-choice">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="box-botao">
+            <button class="acao" id="tatuar">TATUAR</button>
+            <button class="acao" id="cancelar">CANCELAR</button>
+        </div>
+    </div>
+    <div class="camera">
+        <h2>CAMERA</h2>
+        <div class="clothing-menu-header-cameras">
+            <div class="clothing-menu-header-camera-btn" data-value="1">
+                <p class="fas fa-hat-cowboy">CIMA</p>
+            </div>
+            <div class="clothing-menu-header-camera-btn" data-value="2">
+                <p class="fas fa-tshirt">MEIO</p>
+            </div>
+            <div class="clothing-menu-header-camera-btn" data-value="3">
+                <p class="fas fa-shoe-prints">BAIXO</p>
+            </div>
+        </div>
+    </div>
+    <div class="blur">
+    </div>
+</body>
+<script>
+    function LimparSelecao() {
+        let parte
+        let opcao1 = document.getElementsByName('parte')
+        for (let x in opcao1) {
+            if (opcao1[x].classList) {
+                if (opcao1[x].classList.value == 'selecionada') {
+                    parte = opcao1[x].id
+                }
+            }
+        }
+        return parte
+    }
+    function Selecionado(id, hash) {
+        let parte = LimparSelecao()
+
+
+        let id_modelo
+        for (const i of Array(375).keys()) {
+            if (id == i) {
+                id_modelo = id
+            }
+        }
+
+        let opcao2 = document.getElementsByName('modelo')
+        let selecionado = false
+
+        for (let x in opcao2) {
+            if (opcao2[x].classList) {
+                if (opcao2[x].classList.value == 'modelo selecionado') {
+                    if (opcao2[x].id == id) {
+                        selecionado = true
+                    }
+                }
+            }
+        }
+
+        if (selecionado == true) {
+            $.post("http://tattoos/desenho",
+                JSON.stringify({ indice: id_modelo, hash: hash, modo: 'desmarcar' }))
+            $("#" + id).removeClass('selecionado')
+        } else if (selecionado == false) {
+            $.post("http://tattoos/desenho",
+                JSON.stringify({ indice: id_modelo, hash: hash, modo: 'marcar' }))
+            $("#" + id).toggleClass('selecionado')
+        }
+
+
+    }
+
+    function Request(arg) {
+        if (arg == "s") {
+            $.post("http://tattoos/request", JSON.stringify({ request: arg }))
+            $(".selecionada").removeClass("selecionada")
+        } else if (arg == "n") {
+            $.post("http://tattoos/request", JSON.stringify({ request: arg }))
+            $(".selecionada").removeClass("selecionada")
+            $("#head").toggleClass('selecionada')
+        }
+    }
+
+    function atualizaOpcoes(data) {
+        $(".tattoos-choice").html("");
+        {
+            jQuery.each(data, function (key, value) {
+                $('.tattoos-choice').append(
+                    `<div><button onclick="Selecionado(` +
+                    data[key][0] + `, '` + data[key][2] +
+                    `')" id="` +
+                    data[key][0] +
+                    `" name="modelo" class="modelo" style="width:95%;font-size:150%">` +
+                    data[key][1] +
+                    `</button></div>`
+                );
+            });
+            jQuery.each(data, function (key, value) {
+                if (data[key][3] == true) {
+                    $("#" + data[key][0]).toggleClass('selecionado')
+
+                } else {
+
+                }
+            })
+        };
+    }
+
+    $(() => {
+        $("body").hide()
+        let data
+
+        window.addEventListener("message", function (event) {
+            if (event.data.show != undefined) {
+                let status = event.data.show
+                if (status) {
+                    $("body").show()
+                } else {
+                    $("body").hide()
+                }
+            }
+
+            if (event.data.opcoes) {
+                data = event.data.opcoes
+                if (event.data.opcoes == "limpar") {
+                    $(".tattoos-choice").html("");
+                    $('.tattoos-choice').append(
+                        `<div style="height:98%;align-items: center"><div class="acao" style="height:20%"><h3>DESEJA LIMPAR TODAS AS TATTOOS?</h3></div><div class="box-local-choice" style="height:10%;margin:0px"><button style="height:100%;margin:10px" onclick="Request('s')">SIM</button><button style="height:100%;margin:10px"  onclick="Request('n')">NÃO</button></div></div>`
+                    );
+                } else {
+                    atualizaOpcoes(data)
+                }
+            }
+
+            if (event.data.open) {
+                $("#head").toggleClass('selecionada')
+            }
+        })
+
+        $("body").hide()
+
+        $("#head").click(function () {
+            $.post('http://tattoos/escolha', JSON.stringify({ parte: "head" }))
+            $(".selecionada").removeClass("selecionada")
+            $("#head").toggleClass('selecionada')
+        })
+
+        $("#torso").click(function () {
+            $.post('http://tattoos/escolha', JSON.stringify({ parte: "torso" }))
+            $(".selecionada").removeClass("selecionada")
+            $("#torso").toggleClass('selecionada')
+        })
+
+        $("#right_arm").click(function () {
+            $.post('http://tattoos/escolha', JSON.stringify({ parte: "right_arm" }))
+            $(".selecionada").removeClass("selecionada")
+            $("#right_arm").toggleClass('selecionada')
+        })
+
+        $("#left_arm").click(function () {
+            $.post('http://tattoos/escolha', JSON.stringify({ parte: "left_arm" }))
+            $(".selecionada").removeClass("selecionada")
+            $("#left_arm").toggleClass('selecionada')
+        })
+
+        $("#right_leg").click(function () {
+            $.post('http://tattoos/escolha', JSON.stringify({ parte: "right_leg" }))
+            $(".selecionada").removeClass("selecionada")
+            $("#right_leg").toggleClass('selecionada')
+        })
+
+        $("#left_leg").click(function () {
+            $.post('http://tattoos/escolha', JSON.stringify({ parte: "left_leg" }))
+            $(".selecionada").removeClass("selecionada")
+            $("#left_leg").toggleClass('selecionada')
+        })
+
+        $("#clear").click(function () {
+            $.post('http://tattoos/escolha', JSON.stringify({ parte: "limpar" }))
+            $(".selecionada").removeClass("selecionada")
+            $("#clear").toggleClass('selecionada')
+        })
+
+        $("#tatuar").click(function () {
+            $.post("http://tattoos/tatuar", JSON.stringify({ tatuar: "tatuar" }))
+            $(".selecionado").removeClass("selecionado")
+            $(".selecionada").removeClass("selecionada")
+        })
+
+        $("#cancelar").click(function () {
+            $.post("http://tattoos/cancelar", JSON.stringify({ cancelar: "cancelar" }))
+            $(".selecionado").removeClass("selecionado")
+            $(".selecionada").removeClass("selecionada")
+        })
+
+        var selectedCam = null;
+
+        $(document).on('click', '.clothing-menu-header-camera-btn', function (e) {
+            e.preventDefault();
+
+            var camValue = parseFloat($(this).data('value'));
+
+            if (selectedCam == null) {
+                $(this).addClass("selected-cam");
+                $.post('http://tattoos/setupCam', JSON.stringify({
+                    value: camValue
+                }));
+                selectedCam = this;
+            } else {
+                if (selectedCam == this) {
+                    $(selectedCam).removeClass("selected-cam");
+                    $.post('http://tattoos/setupCam', JSON.stringify({
+                        value: 0
+                    }));
+
+                    selectedCam = null;
+                } else {
+                    $(selectedCam).removeClass("selected-cam");
+                    $(this).addClass("selected-cam");
+                    $.post('http://tattoos/setupCam', JSON.stringify({
+                        value: camValue
+                    }));
+
+                    selectedCam = this;
+                }
+            }
+        });
+
+        $(document).on('keydown', function () {
+            switch (event.keyCode) {
+                case 68: // D
+                    $.post('http://tattoos/rotateRight');
+                    break;
+                case 65: // A
+                    $.post('http://tattoos/rotateLeft');
+                    break;
+                case 38: // UP
+                    ChangeUp();
+                    break;
+                case 40: // DOWN
+                    ChangeDown();
+                    break;
+            }
+        });
+
+    })
+</script>
+
+</html>

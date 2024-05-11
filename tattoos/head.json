@@ -1,0 +1,200 @@
+[
+    {
+        "Name": "TAT_BI_009",
+        "LocalizedName": "Morbid Arachnid",
+        "HashNameMale": "MP_MP_Biker_Tat_009_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_009_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "6350"
+    },
+    {
+        "Name": "TAT_BI_038",
+        "LocalizedName": "FTW",
+        "HashNameMale": "MP_MP_Biker_Tat_038_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_038_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "3900"
+    },
+    {
+        "Name": "TAT_BI_051",
+        "LocalizedName": "Western Stylized",
+        "HashNameMale": "MP_MP_Biker_Tat_051_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_051_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "4125"
+    },
+    {
+        "Name": "TAT_X2_007",
+        "LocalizedName": "Los Muertos",
+        "HashNameMale": "MP_Xmas2_M_Tat_007",
+        "HashNameFemale": "MP_Xmas2_F_Tat_007",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "3950"
+    },
+    {
+        "Name": "TAT_X2_024",
+        "LocalizedName": "Snake Head Outline",
+        "HashNameMale": "MP_Xmas2_M_Tat_024",
+        "HashNameFemale": "MP_Xmas2_F_Tat_024",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "2100"
+    },
+    {
+        "Name": "TAT_X2_025",
+        "LocalizedName": "Snake Head Color",
+        "HashNameMale": "MP_Xmas2_M_Tat_025",
+        "HashNameFemale": "MP_Xmas2_F_Tat_025",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "4600"
+    },
+    {
+        "Name": "TAT_X2_029",
+        "LocalizedName": "Beautiful Death",
+        "HashNameMale": "MP_Xmas2_M_Tat_029",
+        "HashNameFemale": "MP_Xmas2_F_Tat_029",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "3150"
+    },
+    {
+        "Name": "TAT_X2_007",
+        "LocalizedName": "Los Muertos",
+        "HashNameMale": "MP_Xmas2_M_Tat_007",
+        "HashNameFemale": "MP_Xmas2_F_Tat_007",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "3950"
+    },
+    {
+        "Name": "TAT_X2_024",
+        "LocalizedName": "Snake Head Outline",
+        "HashNameMale": "MP_Xmas2_M_Tat_024",
+        "HashNameFemale": "MP_Xmas2_F_Tat_024",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "2100"
+    },
+    {
+        "Name": "TAT_X2_025",
+        "LocalizedName": "Snake Head Color",
+        "HashNameMale": "MP_Xmas2_M_Tat_025",
+        "HashNameFemale": "MP_Xmas2_F_Tat_025",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "4600"
+    },
+    {
+        "Name": "TAT_X2_029",
+        "LocalizedName": "Beautiful Death",
+        "HashNameMale": "MP_Xmas2_M_Tat_029",
+        "HashNameFemale": "MP_Xmas2_F_Tat_029",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "3150"
+    },
+    {
+        "Name": "TAT_GR_003",
+        "LocalizedName": "Lock & Load",
+        "HashNameMale": "MP_Gunrunning_Tattoo_003_M",
+        "HashNameFemale": "MP_Gunrunning_Tattoo_003_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "8750"
+    },
+    {
+        "Name": "TAT_HP_005",
+        "LocalizedName": "Beautiful Eye",
+        "HashNameMale": "FM_Hip_M_Tat_005",
+        "HashNameFemale": "FM_Hip_F_Tat_005",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "7450"
+    },
+    {
+        "Name": "TAT_HP_021",
+        "LocalizedName": "Geo Fox",
+        "HashNameMale": "FM_Hip_M_Tat_021",
+        "HashNameFemale": "FM_Hip_F_Tat_021",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "7850"
+    },
+    {
+        "Name": "TAT_SM_011",
+        "LocalizedName": "Sinner",
+        "HashNameMale": "MP_Smuggler_Tattoo_011_M",
+        "HashNameFemale": "MP_Smuggler_Tattoo_011_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "8110"
+    },
+    {
+        "Name": "TAT_SM_012",
+        "LocalizedName": "Thief",
+        "HashNameMale": "MP_Smuggler_Tattoo_012_M",
+        "HashNameFemale": "MP_Smuggler_Tattoo_012_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "10720"
+    },
+    {
+        "Name": "TAT_ST_000",
+        "LocalizedName": "Stunt Skull",
+        "HashNameMale": "MP_MP_Stunt_Tat_000_M",
+        "HashNameFemale": "MP_MP_Stunt_Tat_000_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "4850"
+    },
+    {
+        "Name": "TAT_ST_004",
+        "LocalizedName": "Scorpion",
+        "HashNameMale": "MP_MP_Stunt_tat_004_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_004_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "6350"
+    },
+    {
+        "Name": "TAT_ST_006",
+        "LocalizedName": "Toxic Spider",
+        "HashNameMale": "MP_MP_Stunt_tat_006_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_006_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "5900"
+    },
+    {
+        "Name": "TAT_ST_017",
+        "LocalizedName": "Bat Wheel",
+        "HashNameMale": "MP_MP_Stunt_tat_017_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_017_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "3800"
+    },
+    {
+        "Name": "TAT_ST_042",
+        "LocalizedName": "Flaming Quad",
+        "HashNameMale": "MP_MP_Stunt_tat_042_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_042_F",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "4150"
+    },
+    {
+        "Name": "TAT_FM_008",
+        "LocalizedName": "Skull",
+        "HashNameMale": "FM_Tat_Award_M_000",
+        "HashNameFemale": "FM_Tat_Award_F_000",
+        "Zone": "ZONE_HEAD",
+        "ZoneID": "1",
+        "Price": "20000"
+    }
+]

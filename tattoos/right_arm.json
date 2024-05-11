@@ -1,0 +1,668 @@
+[
+    {
+        "Name": "TAT_BI_007",
+        "LocalizedName": "Swooping Eagle",
+        "HashNameMale": "MP_MP_Biker_Tat_007_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_007_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "5100"
+    },
+    {
+        "Name": "TAT_BI_014",
+        "LocalizedName": "Lady Mortality",
+        "HashNameMale": "MP_MP_Biker_Tat_014_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_014_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "8300"
+    },
+    {
+        "Name": "TAT_BI_033",
+        "LocalizedName": "Eagle Emblem",
+        "HashNameMale": "MP_MP_Biker_Tat_033_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_033_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "4385"
+    },
+    {
+        "Name": "TAT_BI_042",
+        "LocalizedName": "Grim Rider",
+        "HashNameMale": "MP_MP_Biker_Tat_042_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_042_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "7865"
+    },
+    {
+        "Name": "TAT_BI_046",
+        "LocalizedName": "Skull Chain",
+        "HashNameMale": "MP_MP_Biker_Tat_046_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_046_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "4985"
+    },
+    {
+        "Name": "TAT_BI_047",
+        "LocalizedName": "Snake Bike",
+        "HashNameMale": "MP_MP_Biker_Tat_047_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_047_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "13500"
+    },
+    {
+        "Name": "TAT_BI_049",
+        "LocalizedName": "These Colors Don't Run",
+        "HashNameMale": "MP_MP_Biker_Tat_049_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_049_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "8790"
+    },
+    {
+        "Name": "TAT_BI_054",
+        "LocalizedName": "Mum",
+        "HashNameMale": "MP_MP_Biker_Tat_054_M",
+        "HashNameFemale": "MP_MP_Biker_Tat_054_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "10450"
+    },
+    {
+        "Name": "TAT_X2_003",
+        "LocalizedName": "Snake Outline",
+        "HashNameMale": "MP_Xmas2_M_Tat_003",
+        "HashNameFemale": "MP_Xmas2_F_Tat_003",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "8450"
+    },
+    {
+        "Name": "TAT_X2_004",
+        "LocalizedName": "Snake Shaded",
+        "HashNameMale": "MP_Xmas2_M_Tat_004",
+        "HashNameFemale": "MP_Xmas2_F_Tat_004",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "13250"
+    },
+    {
+        "Name": "TAT_X2_008",
+        "LocalizedName": "Death Before Dishonor",
+        "HashNameMale": "MP_Xmas2_M_Tat_008",
+        "HashNameFemale": "MP_Xmas2_F_Tat_008",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "4300"
+    },
+    {
+        "Name": "TAT_X2_022",
+        "LocalizedName": "You're Next Outline",
+        "HashNameMale": "MP_Xmas2_M_Tat_022",
+        "HashNameFemale": "MP_Xmas2_F_Tat_022",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "3800"
+    },
+    {
+        "Name": "TAT_X2_023",
+        "LocalizedName": "You're Next Color",
+        "HashNameMale": "MP_Xmas2_M_Tat_023",
+        "HashNameFemale": "MP_Xmas2_F_Tat_023",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "5100"
+    },
+    {
+        "Name": "TAT_X2_026",
+        "LocalizedName": "Fuck Luck Outline",
+        "HashNameMale": "MP_Xmas2_M_Tat_026",
+        "HashNameFemale": "MP_Xmas2_F_Tat_026",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "1300"
+    },
+    {
+        "Name": "TAT_X2_027",
+        "LocalizedName": "Fuck Luck Color",
+        "HashNameMale": "MP_Xmas2_M_Tat_027",
+        "HashNameFemale": "MP_Xmas2_F_Tat_027",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2200"
+    },
+    {
+        "Name": "TAT_X2_003",
+        "LocalizedName": "Snake Outline",
+        "HashNameMale": "MP_Xmas2_M_Tat_003",
+        "HashNameFemale": "MP_Xmas2_F_Tat_003",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "8450"
+    },
+    {
+        "Name": "TAT_X2_004",
+        "LocalizedName": "Snake Shaded",
+        "HashNameMale": "MP_Xmas2_M_Tat_004",
+        "HashNameFemale": "MP_Xmas2_F_Tat_004",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "13250"
+    },
+    {
+        "Name": "TAT_X2_008",
+        "LocalizedName": "Death Before Dishonor",
+        "HashNameMale": "MP_Xmas2_M_Tat_008",
+        "HashNameFemale": "MP_Xmas2_F_Tat_008",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "4300"
+    },
+    {
+        "Name": "TAT_X2_022",
+        "LocalizedName": "You're Next Outline",
+        "HashNameMale": "MP_Xmas2_M_Tat_022",
+        "HashNameFemale": "MP_Xmas2_F_Tat_022",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "3800"
+    },
+    {
+        "Name": "TAT_X2_023",
+        "LocalizedName": "You're Next Color",
+        "HashNameMale": "MP_Xmas2_M_Tat_023",
+        "HashNameFemale": "MP_Xmas2_F_Tat_023",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "5100"
+    },
+    {
+        "Name": "TAT_X2_026",
+        "LocalizedName": "Fuck Luck Outline",
+        "HashNameMale": "MP_Xmas2_M_Tat_026",
+        "HashNameFemale": "MP_Xmas2_F_Tat_026",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "1300"
+    },
+    {
+        "Name": "TAT_X2_027",
+        "LocalizedName": "Fuck Luck Color",
+        "HashNameMale": "MP_Xmas2_M_Tat_027",
+        "HashNameFemale": "MP_Xmas2_F_Tat_027",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2200"
+    },
+    {
+        "Name": "TAT_GR_002",
+        "LocalizedName": "Grenade",
+        "HashNameMale": "MP_Gunrunning_Tattoo_002_M",
+        "HashNameFemale": "MP_Gunrunning_Tattoo_002_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "14650"
+    },
+    {
+        "Name": "TAT_GR_021",
+        "LocalizedName": "Have a Nice Day",
+        "HashNameMale": "MP_Gunrunning_Tattoo_021_M",
+        "HashNameFemale": "MP_Gunrunning_Tattoo_021_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "9460"
+    },
+    {
+        "Name": "TAT_GR_024",
+        "LocalizedName": "Combat Reaper",
+        "HashNameMale": "MP_Gunrunning_Tattoo_024_M",
+        "HashNameFemale": "MP_Gunrunning_Tattoo_024_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "10340"
+    },
+    {
+        "Name": "TAT_HP_001",
+        "LocalizedName": "Single Arrow",
+        "HashNameMale": "FM_Hip_M_Tat_001",
+        "HashNameFemale": "FM_Hip_F_Tat_001",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2000"
+    },
+    {
+        "Name": "TAT_HP_004",
+        "LocalizedName": "Bone",
+        "HashNameMale": "FM_Hip_M_Tat_004",
+        "HashNameFemale": "FM_Hip_F_Tat_004",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2900"
+    },
+    {
+        "Name": "TAT_HP_008",
+        "LocalizedName": "Cube",
+        "HashNameMale": "FM_Hip_M_Tat_008",
+        "HashNameFemale": "FM_Hip_F_Tat_008",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "4850"
+    },
+    {
+        "Name": "TAT_HP_010",
+        "LocalizedName": "Horseshoe",
+        "HashNameMale": "FM_Hip_M_Tat_010",
+        "HashNameFemale": "FM_Hip_F_Tat_010",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "3150"
+    },
+    {
+        "Name": "TAT_HP_014",
+        "LocalizedName": "Spray Can",
+        "HashNameMale": "FM_Hip_M_Tat_014",
+        "HashNameFemale": "FM_Hip_F_Tat_014",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "4300"
+    },
+    {
+        "Name": "TAT_HP_017",
+        "LocalizedName": "Eye Triangle",
+        "HashNameMale": "FM_Hip_M_Tat_017",
+        "HashNameFemale": "FM_Hip_F_Tat_017",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2650"
+    },
+    {
+        "Name": "TAT_HP_018",
+        "LocalizedName": "Origami",
+        "HashNameMale": "FM_Hip_M_Tat_018",
+        "HashNameFemale": "FM_Hip_F_Tat_018",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "1800"
+    },
+    {
+        "Name": "TAT_HP_020",
+        "LocalizedName": "Geo Pattern",
+        "HashNameMale": "FM_Hip_M_Tat_020",
+        "HashNameFemale": "FM_Hip_F_Tat_020",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "7350"
+    },
+    {
+        "Name": "TAT_HP_022",
+        "LocalizedName": "Pencil",
+        "HashNameMale": "FM_Hip_M_Tat_022",
+        "HashNameFemale": "FM_Hip_F_Tat_022",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2250"
+    },
+    {
+        "Name": "TAT_HP_023",
+        "LocalizedName": "Smiley",
+        "HashNameMale": "FM_Hip_M_Tat_023",
+        "HashNameFemale": "FM_Hip_F_Tat_023",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "7000"
+    },
+    {
+        "Name": "TAT_HP_036",
+        "LocalizedName": "Shapes",
+        "HashNameMale": "FM_Hip_M_Tat_036",
+        "HashNameFemale": "FM_Hip_F_Tat_036",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "5150"
+    },
+    {
+        "Name": "TAT_HP_044",
+        "LocalizedName": "Triangle Black",
+        "HashNameMale": "FM_Hip_M_Tat_044",
+        "HashNameFemale": "FM_Hip_F_Tat_044",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "5500"
+    },
+    {
+        "Name": "TAT_HP_045",
+        "LocalizedName": "Mesh Band",
+        "HashNameMale": "FM_Hip_M_Tat_045",
+        "HashNameFemale": "FM_Hip_F_Tat_045",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "4000"
+    },
+    {
+        "Name": "TAT_IE_003",
+        "LocalizedName": "Mechanical Sleeve",
+        "HashNameMale": "MP_MP_ImportExport_Tat_003_M",
+        "HashNameFemale": "MP_MP_ImportExport_Tat_003_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "17200"
+    },
+    {
+        "Name": "TAT_IE_005",
+        "LocalizedName": "Dialed In",
+        "HashNameMale": "MP_MP_ImportExport_Tat_005_M",
+        "HashNameFemale": "MP_MP_ImportExport_Tat_005_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "18615"
+    },
+    {
+        "Name": "TAT_IE_006",
+        "LocalizedName": "Engulfed Block",
+        "HashNameMale": "MP_MP_ImportExport_Tat_006_M",
+        "HashNameFemale": "MP_MP_ImportExport_Tat_006_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "15720"
+    },
+    {
+        "Name": "TAT_IE_007",
+        "LocalizedName": "Drive Forever",
+        "HashNameMale": "MP_MP_ImportExport_Tat_007_M",
+        "HashNameFemale": "MP_MP_ImportExport_Tat_007_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "16685"
+    },
+    {
+        "Name": "TAT_S1_015",
+        "LocalizedName": "Seductress",
+        "HashNameMale": "MP_LR_Tat_015_M",
+        "HashNameFemale": "MP_LR_Tat_015_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "6150"
+    },
+    {
+        "Name": "TAT_S2_003",
+        "LocalizedName": "Lady Vamp",
+        "HashNameMale": "MP_LR_Tat_003_M",
+        "HashNameFemale": "MP_LR_Tat_003_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "5950"
+    },
+    {
+        "Name": "TAT_S2_028",
+        "LocalizedName": "Loving Los Muertos",
+        "HashNameMale": "MP_LR_Tat_028_M",
+        "HashNameFemale": "MP_LR_Tat_028_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "8800"
+    },
+    {
+        "Name": "TAT_S2_035",
+        "LocalizedName": "Black Tears",
+        "HashNameMale": "MP_LR_Tat_035_M",
+        "HashNameFemale": "MP_LR_Tat_035_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "8250"
+    },
+    {
+        "Name": "TAT_LX_004",
+        "LocalizedName": "Floral Raven",
+        "HashNameMale": "MP_LUXE_TAT_004_M",
+        "HashNameFemale": "MP_LUXE_TAT_004_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "12200"
+    },
+    {
+        "Name": "TAT_LX_013",
+        "LocalizedName": "Mermaid Harpist",
+        "HashNameMale": "MP_LUXE_TAT_013_M",
+        "HashNameFemale": "MP_LUXE_TAT_013_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "16900"
+    },
+    {
+        "Name": "TAT_LX_019",
+        "LocalizedName": "Geisha Bloom",
+        "HashNameMale": "MP_LUXE_TAT_019_M",
+        "HashNameFemale": "MP_LUXE_TAT_019_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "16850"
+    },
+    {
+        "Name": "TAT_L2_010",
+        "LocalizedName": "Intrometric",
+        "HashNameMale": "MP_LUXE_TAT_010_M",
+        "HashNameFemale": "MP_LUXE_TAT_010_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "14650"
+    },
+    {
+        "Name": "TAT_L2_017",
+        "LocalizedName": "Heavenly Deity",
+        "HashNameMale": "MP_LUXE_TAT_017_M",
+        "HashNameFemale": "MP_LUXE_TAT_017_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "21550"
+    },
+    {
+        "Name": "TAT_L2_026",
+        "LocalizedName": "Floral Print",
+        "HashNameMale": "MP_LUXE_TAT_026_M",
+        "HashNameFemale": "MP_LUXE_TAT_026_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "14700"
+    },
+    {
+        "Name": "TAT_L2_030",
+        "LocalizedName": "Geometric Design",
+        "HashNameMale": "MP_LUXE_TAT_030_M",
+        "HashNameFemale": "MP_LUXE_TAT_030_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "0"
+    },
+    {
+        "Name": "TAT_SM_001",
+        "LocalizedName": "Crackshot",
+        "HashNameMale": "MP_Smuggler_Tattoo_001_M",
+        "HashNameFemale": "MP_Smuggler_Tattoo_001_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "10825"
+    },
+    {
+        "Name": "TAT_SM_005",
+        "LocalizedName": "Mutiny",
+        "HashNameMale": "MP_Smuggler_Tattoo_005_M",
+        "HashNameFemale": "MP_Smuggler_Tattoo_005_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "7920"
+    },
+    {
+        "Name": "TAT_SM_023",
+        "LocalizedName": "Stylized Kraken",
+        "HashNameMale": "MP_Smuggler_Tattoo_023_M",
+        "HashNameFemale": "MP_Smuggler_Tattoo_023_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "14400"
+    },
+    {
+        "Name": "TAT_ST_003",
+        "LocalizedName": "Poison Wrench",
+        "HashNameMale": "MP_MP_Stunt_tat_003_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_003_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "4300"
+    },
+    {
+        "Name": "TAT_ST_009",
+        "LocalizedName": "Arachnid of Death",
+        "HashNameMale": "MP_MP_Stunt_tat_009_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_009_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "10800"
+    },
+    {
+        "Name": "TAT_ST_010",
+        "LocalizedName": "Grave Vulture",
+        "HashNameMale": "MP_MP_Stunt_tat_010_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_010_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "11000"
+    },
+    {
+        "Name": "TAT_ST_016",
+        "LocalizedName": "Coffin Racer",
+        "HashNameMale": "MP_MP_Stunt_tat_016_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_016_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "12950"
+    },
+    {
+        "Name": "TAT_ST_036",
+        "LocalizedName": "Biker Stallion",
+        "HashNameMale": "MP_MP_Stunt_tat_036_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_036_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2350"
+    },
+    {
+        "Name": "TAT_ST_038",
+        "LocalizedName": "One Down Five Up",
+        "HashNameMale": "MP_MP_Stunt_tat_038_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_038_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "5750"
+    },
+    {
+        "Name": "TAT_ST_049",
+        "LocalizedName": "Seductive Mechanic",
+        "HashNameMale": "MP_MP_Stunt_tat_049_M",
+        "HashNameFemale": "MP_MP_Stunt_tat_049_F",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "23000"
+    },
+    {
+        "Name": "TAT_FM_010",
+        "LocalizedName": "Grim Reaper Smoking Gun",
+        "HashNameMale": "FM_Tat_Award_M_002",
+        "HashNameFemale": "FM_Tat_Award_F_002",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "9750"
+    },
+    {
+        "Name": "TAT_FM_018",
+        "LocalizedName": "Ride or Die",
+        "HashNameMale": "FM_Tat_Award_M_010",
+        "HashNameFemale": "FM_Tat_Award_F_010",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2700"
+    },
+    {
+        "Name": "TAT_FM_204",
+        "LocalizedName": "Brotherhood",
+        "HashNameMale": "FM_Tat_M_000",
+        "HashNameFemale": "FM_Tat_F_000",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "10000"
+    },
+    {
+        "Name": "TAT_FM_205",
+        "LocalizedName": "Dragons",
+        "HashNameMale": "FM_Tat_M_001",
+        "HashNameFemale": "FM_Tat_F_001",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "12500"
+    },
+    {
+        "Name": "TAT_FM_206",
+        "LocalizedName": "Dragons and Skull",
+        "HashNameMale": "FM_Tat_M_003",
+        "HashNameFemale": "FM_Tat_F_003",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "10000"
+    },
+    {
+        "Name": "TAT_FM_207",
+        "LocalizedName": "Flower Mural",
+        "HashNameMale": "FM_Tat_M_014",
+        "HashNameFemale": "FM_Tat_F_014",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "5000"
+    },
+    {
+        "Name": "TAT_FM_208",
+        "LocalizedName": "Serpent Skull",
+        "HashNameMale": "FM_Tat_M_018",
+        "HashNameFemale": "FM_Tat_F_018",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "7500"
+    },
+    {
+        "Name": "TAT_FM_228",
+        "LocalizedName": "Virgin Mary",
+        "HashNameMale": "FM_Tat_M_027",
+        "HashNameFemale": "FM_Tat_F_027",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "7300"
+    },
+    {
+        "Name": "TAT_FM_229",
+        "LocalizedName": "Mermaid",
+        "HashNameMale": "FM_Tat_M_028",
+        "HashNameFemale": "FM_Tat_F_028",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "3250"
+    },
+    {
+        "Name": "TAT_FM_239",
+        "LocalizedName": "Dagger",
+        "HashNameMale": "FM_Tat_M_038",
+        "HashNameFemale": "FM_Tat_F_038",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "1150"
+    },
+    {
+        "Name": "TAT_FM_247",
+        "LocalizedName": "Lion",
+        "HashNameMale": "FM_Tat_M_047",
+        "HashNameFemale": "FM_Tat_F_047",
+        "Zone": "ZONE_RIGHT_ARM",
+        "ZoneID": "3",
+        "Price": "2500"
+    }
+]
